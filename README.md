@@ -27,6 +27,7 @@ ssh-keygen -t rsa -b 4096 -C your_email@example.com
 
 ##Install and download Anaconda
 -https://www.continuum.io/downloads#_unix
+
 ./Anaconda2-4.0.0-Linux-x86_64.sh
 
 ##Install RStudio and interpreter
@@ -37,6 +38,8 @@ sudo dpkg -i rstudio-0.99.902-amd64.deb
 sudo apt-get install -f
 sudo dpkg -i rstudio-0.99.902-amd64.deb 
 sudo apt-get -y install r-base
+~~~
+
 #Ejecutar como:
 rstudio
 
