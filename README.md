@@ -40,7 +40,7 @@ sudo dpkg -i rstudio-0.99.902-amd64.deb
 sudo apt-get -y install r-base
 ~~~
 
-#Ejecutar como:
+###Ejecutar como:
 rstudio
 
 ##Install python IDE pycharm
@@ -59,11 +59,11 @@ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 ~~~javascript
 sudo service mongod start
 ~~~
-#O bien ejecutar indicando el path donde almacena la informacion
+###O bien ejecutar indicando el path donde almacena la informacion
 ~~~javascript
 mongod --dbpath mongodb/data/db/
 ~~~
-##DOnwload Robomongo
+##Donwload Robomongo
 --https://robomongo.org/download
 ~~~javascript 
 mv Downloads/robomongo-0.9.0-rc8-linux-x86_64-c113244.tar.gz /software
@@ -74,7 +74,7 @@ cd robomongo-0.9.0-rc8-linux-x86_64-c113244/bin
 ./robomongo
 ~~~
 
-##Download and install protege
+#Download and install protege
 --http://protege.stanford.edu/download/protege/4.3/installanywhere/Web_Installers/
 ##Installing Oracle Java 8
 --http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
@@ -83,9 +83,9 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 ~~~
-#Una vez descargado el protege, ejecutar la instalacion del binario
+##Una vez descargado el protege, ejecutar la instalacion del binario
 ~~~javascript 
 install_protege_4.3.bin
 ~~~
-#Todavia no he conseguido que funcione el ejecutable...en depuracion...
+###Todavia no he conseguido que funcione el ejecutable...en depuracion...
 
