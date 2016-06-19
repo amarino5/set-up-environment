@@ -74,8 +74,21 @@ cd robomongo-0.9.0-rc8-linux-x86_64-c113244/bin
 ./robomongo
 ~~~
 
+##Install Chrome
+~~~javascript
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt-get update 
+sudo apt-get install google-chrome-stable
+~~~
+
 #Download and install protege
 --http://protege.stanford.edu/download/protege/4.3/installanywhere/Web_Installers/
+
+Ejecutar las siguientes lineas antes de ejecutar el paquete descargado.
+~~~javascript
+ sudo apt-get install libc6-i386 
+~~~
 ##Installing Oracle Java 8
 --http://www.webupd8.org/2012/09/install-oracle-java-8-in-ubuntu-via-ppa.html
 ~~~javascript 
@@ -89,3 +102,7 @@ install_protege_4.3.bin
 ~~~
 ###Todavia no he conseguido que funcione el ejecutable...en depuracion...
 
+#Install R kernel into Jupyter HUB
+~~~ javascript 
+conda install -c r r-essentials 
+~~~
