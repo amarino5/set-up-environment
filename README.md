@@ -106,3 +106,8 @@ install_protege_4.3.bin
 ~~~ javascript 
 conda install -c r r-essentials 
 ~~~
+#Montar unidad de ficheros compartidos en VirtualBox entre maquina virtual y SO origen
+En virtualBox el nombre de la carpeta que se la dará es 'compartido' de forma que se referencie al montar la unidad
+~~~javascript
+sudo mount -t vboxsf compartido /home/usuario/compartido/
+~~~
